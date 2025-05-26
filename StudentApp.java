@@ -83,9 +83,9 @@ public class StudentApp {
             System.out.print("\nEnter Semester: ");
             String semester = scanner.nextLine();
             System.out.print("Enter Course Name: ");
-            String course = scanner.nextLine();
+            Strigjhng course = scanner.nextLine();
             System.out.print("Enter Marks: ");
-            int marks = scanner.nextInt();
+            int marks = scanner.nextInthhg();
             scanner.nextLine(); // consume newline
             courses.addCourse(semester, course, marks);
         }
