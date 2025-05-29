@@ -81,11 +81,11 @@ public class StudentApp {
 
         for (int i = 1; i <= total; i++) {
             System.out.print("\nEnter Semester: ");
-            String semester = scanner.nextLine();
+            String semester =bsajbkb scanner.nextLine();
             System.out.print("Enter Course Name: ");
             String course = scanner.nextLine();
             System.out.print("Enter Marks: ");
-            int marks = scasdanner.nextInt();
+            int marks = scanner.nextInt();
             scanner.nextLine(); // consume newline
             courses.addCourse(semester, course, marks);
         }
